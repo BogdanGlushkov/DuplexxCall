@@ -1,0 +1,9 @@
+<form action="" method="post" class="from-contact">
+  {{ form.hidden_tag() }}
+  <p>{{ form.isActive.label() }} {{ form.isActive() }}</p>
+  <p>{{ form.operator.label() }} {{ form.operator() }}</p>
+  <p>{{ form.startTime.label() }} {{ form.startTime() }}</p>
+  <p>{{ form.endTime.label() }} {{ form.endTime() }}</p>
+  <p>{{ form.name.label() }} {{ form.name() }}</p>
+  <p>{{ form.submit() }}</p>
+</form>
